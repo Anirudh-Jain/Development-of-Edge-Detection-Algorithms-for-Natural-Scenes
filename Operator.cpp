@@ -28,7 +28,7 @@ private:
 	int maxVal = 0;
 
 public:
-	int gradient(double *x, double *y, double *mag, int height, int width)
+	int gradient(double *x, double *y, double *mag, int height, int width) 
 	{
 		int maxVal = 0;
 		for (int i = 0; i < height; i++)
